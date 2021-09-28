@@ -112,6 +112,13 @@ The Balanced Random Forest Classifier (BRFC) works by creating a number of small
 
 ![Easy Ensemble Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Easy%20Ensemble%20Classification%20Report.png)
 
+* Summary of Results
+
+The Easy Ensemble AdaBoost Classifier (EEAC) model works by fitting a classifier on the original dataset, and then fitting additional copies of the classifier where the weights of incorrectly classified instances are adjusted to focus on more difficult cases. This is a potentially good classifier since the high-risk loans are difficult to pick up on due to the imbalance in the dataset. 
+With an accuracy score of 93.1%, a high-risk loan precision of 9%, sensitivity of 92%, and F1 of 16%, this model is by far the best classifier that we have seen. My main concern is that the precision of high-risk loans remains low – there’s only a 9% chance that a loan predicted to be high-risk is actually high-risk.
+
+
+
 ## Summary
 ### Summary of Results
 
