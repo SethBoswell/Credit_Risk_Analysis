@@ -95,6 +95,10 @@ The SMOTEENN sampling algorithm, which combines both an oversampling and undersa
 
 ![BRFC Classification Report](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Balanced%20Random%20Forest%20Classification%20Report.png)
 
+* Summary Results
+
+The Balanced Random Forest Classifier (BRFC) works by creating a number of small, simple decision tree built from a random subset of features. The idea behind this machine learning model is once you combine all of the smaller decision trees into one random forest model, it will produce a strong learning model from a number of weak learners. The BRFC model produced a much higher accuracy score at 78.8%, a higher precision for high-risk loans at 3%, a decent sensitivity at 70%, and a F1 score of 6%. Although still not very precise at predicting high-risk transactions, this model performed better than the logistic regression with the different sampling techniques mentioned previously. 
+
 ### Easy Ensemble AdaBoost Classifier
 * Balanced Accuracy Score
 
