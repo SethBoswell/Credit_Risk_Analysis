@@ -10,18 +10,42 @@ In the Credit_risk_ensemble file, I do the same preprocessing work on the data, 
 ## Results
 ### Naive Random Oversampling
 * Balanced Accuracy Score
+
+![Random Oversampling Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Random%20Oversampling%20Accuracy.png)
+
 * Confusion Matrix
+
+![Random Oversampling Confusion Matrix](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Random%20Oversampling%20Confusion%20Matrix.png)
+
 * Imbalanced Classification Report
 
-### Smote Oversampling
+![Random Oversampling Classification Report](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Random%20Oversampling%20Classification%20Report.png)
+
+### SMOTE Oversampling
   * Balanced Accuracy Score
+
+![SMOTE Oversampling Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Accuracy.png)
+
   * Confusion Matrix
+
+![SMOTE Oversampling Confusion Matrix](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Confusion%20Matrix.png)
+
   * Imbalanced Classification Report
+
+![SMOTE Oversampling Classification Report](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Classification%20Report.png)
 
 ### Undersampling
 * Balanced Accuracy Score
+
+![SMOTE Oversampling Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Accuracy.png)
+
 * Confusion Matrix
+
+![SMOTE Oversampling Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Accuracy.png)
+
 * Imbalanced Classification Report
+
+![SMOTE Oversampling Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Accuracy.png)
 
 ### SMOTEENN
 * Balanced Accuracy Score
