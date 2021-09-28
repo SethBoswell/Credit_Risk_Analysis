@@ -120,6 +120,11 @@ With an accuracy score of 93.1%, a high-risk loan precision of 9%, sensitivity o
 
 
 ## Summary
+
 ### Summary of Results
 
+The summary of each sampling algorithim and classifier in included above. Overall, all of the models had a low-level of precision for high-risk loans, which we care the most about. If there's less than a 10% chance that a loan predicted to be high-risk is actually high-risk, than our models fail to accurately classify them. None of the sampling techniques improved the results to a considerable degree, with only very slight improvements coming from the SMOTEENN sampling algorithm. The Easy Ensemble AdaBoost Classifier did by far the best job of modeling high-risk loans, however it still had a precision of 9%. 
+
 ### Recommendation
+
+I would not recommend using any of these models to predict credit risk due to the inability to accurately predict high-risk loans. The number of False Positives is too high, meaning there's a good chance we could deny a loan to someone who is not high-risk. Because of the fallibility of the models tried here, I would recommend trying other machine learning models and sampling techniques to adjust for the imbalance in the dataset. That said, the EEAC model performed the best by far. 
