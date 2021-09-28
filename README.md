@@ -34,30 +34,59 @@ In the Credit_risk_ensemble file, I do the same preprocessing work on the data, 
 
 ![SMOTE Oversampling Classification Report](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Classification%20Report.png)
 
-### Cluster CentroidsUndersampling
+### Cluster Centroids Undersampling
 * Balanced Accuracy Score
 
-![Undersampling](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Undersampling%20Accuracy.png)
+![Undersampling Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Undersampling%20Accuracy.png)
 
 * Confusion Matrix
 
-![SMOTE Oversampling Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Accuracy.png)
+![Undersampling Confusion Matrix](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Undersampling%20Confusion%20Matrix.png)
 
 * Imbalanced Classification Report
 
-![SMOTE Oversampling Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Accuracy.png)
+![Undersampling Classification Report](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Undersampling%20Classification%20Report.png)
 
 ### SMOTEENN
 * Balanced Accuracy Score
+
+![SMOTEENN Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTEEN%20Accuracy.png)
+
 * Confusion Matrix
+
+![SMOTEENN Confusion Matrix](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTEEN%20Confusion%20Matrix.png)
+
 * Imbalanced Classification Report
+
+![SMOTEENN Classification Report](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTEEN%20Classification%20Report.png)
 
 ### Balanced Random Forest Classifier   
 * Balanced Accuracy Score
+
+![BRFC Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Balanced%20Random%20Forest%20Accuracy.png)
+
 * Confusion Matrix
+
+![BRFC Confusion Matrix](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Balanced%20Random%20Forest%20Confusion%20Matrix.png)
+
 * Imbalanced Classification Report
+
+![BRFC Classification Report](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Balanced%20Random%20Forest%20Classification%20Report.png)
 
 ### Easy Ensemble AdaBoost Classifier
 * Balanced Accuracy Score
+
+![Easy Ensemble Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Easy%20Ensemble%20Accuracy.png)
+
 * Confusion Matrix
+
+![Easy Ensemble Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Easy%20Ensemble%20Confusion%20Matrix.png)
+
 * Imbalanced Classification Report
+
+![Easy Ensemble Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Easy%20Ensemble%20Classification%20Report.png)
+
+## Summary
+### Summary of Results
+
+### Recommendation
