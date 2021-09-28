@@ -61,6 +61,10 @@ The SMOTE oversampling technique, which works by interpolating new instances of 
 
 ![Undersampling Classification Report](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Undersampling%20Classification%20Report.png)
 
+* Summary Results
+
+The Cluster Centroids Undersampling algorithm, which works by generating clusters of representative data from the majority class and then shrinking the rest of the majority class data, produced a similarly low precision for high-risk loans, a slightly higher sensitivity, and a lower F1 score. This sampling technique also did not improve on the naïve approach.
+
 ### SMOTEENN
 * Balanced Accuracy Score
 
