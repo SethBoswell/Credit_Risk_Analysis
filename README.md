@@ -8,32 +8,32 @@ First, I used both a naive random oversampling algorithm and then a synthetic mi
 In the Credit_risk_ensemble file, I do the same preprocessing work on the data, split the data into training and test sets, and then run both a Balanced Random Forest Classifier model and a Easy Ensemble AdaBoost Classifier model to see which one performed better. Below, I will discuss the results of the different sampling techniques and the two machine learning models mentioned just above as well as provide a summary of the results and a recommendation on which model to use for predicting credit risk from loan application information.
 
 ## Results
-* Naive Random Oversampling
+### Naive Random Oversampling
+* Balanced Accuracy Score
+* Confusion Matrix
+* Imbalanced Classification Report
+
+### Smote Oversampling
   * Balanced Accuracy Score
   * Confusion Matrix
   * Imbalanced Classification Report
 
-* Smote Oversampling
-  * Balanced Accuracy Score
-  * Confusion Matrix
-  * Imbalanced Classification Report
+### Undersampling
+* Balanced Accuracy Score
+* Confusion Matrix
+* Imbalanced Classification Report
 
-* Undersampling
-  * Balanced Accuracy Score
-  * Confusion Matrix
-  * Imbalanced Classification Report
+### SMOTEENN
+* Balanced Accuracy Score
+* Confusion Matrix
+* Imbalanced Classification Report
 
-* SMOTEENN
-  * Balanced Accuracy Score
-  * Confusion Matrix
-  * Imbalanced Classification Report
+### Balanced Random Forest Classifier   
+* Balanced Accuracy Score
+* Confusion Matrix
+* Imbalanced Classification Report
 
-* Balanced Random Forest Classifier   
-  * Balanced Accuracy Score
-  * Confusion Matrix
-  * Imbalanced Classification Report
-
-* Easy Ensemble AdaBoost Classifier
-  * Balanced Accuracy Score
-  * Confusion Matrix
-  * Imbalanced Classification Report
+### Easy Ensemble AdaBoost Classifier
+* Balanced Accuracy Score
+* Confusion Matrix
+* Imbalanced Classification Report
