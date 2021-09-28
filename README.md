@@ -44,6 +44,10 @@ Finally, the F1 score, or harmonic mean, which combines both sensitivity and pre
 
 ![SMOTE Oversampling Classification Report](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Classification%20Report.png)
 
+* Summary Results
+
+The SMOTE oversampling technique, which works by interpolating new instances of the minority class (instead of randomly selecting instances like in the naïve model), had a slightly higher accuracy score of 66.2%, however, the precision of high-risk loans is still only 1% and the recall of high-risk loans went down to 63% with the harmonic mean staying at 2%. This sampling algorithm did not improve much from the naïve model.
+
 ### Cluster Centroids Undersampling
 * Balanced Accuracy Score
 
