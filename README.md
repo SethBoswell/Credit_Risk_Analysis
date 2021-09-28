@@ -34,10 +34,10 @@ In the Credit_risk_ensemble file, I do the same preprocessing work on the data, 
 
 ![SMOTE Oversampling Classification Report](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Classification%20Report.png)
 
-### Undersampling
+### Cluster CentroidsUndersampling
 * Balanced Accuracy Score
 
-![SMOTE Oversampling Accuracy](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Accuracy.png)
+![Undersampling](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Undersampling%20Accuracy.png)
 
 * Confusion Matrix
 
