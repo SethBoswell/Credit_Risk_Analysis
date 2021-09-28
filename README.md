@@ -21,6 +21,15 @@ In the Credit_risk_ensemble file, I do the same preprocessing work on the data, 
 
 ![Random Oversampling Classification Report](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Random%20Oversampling%20Classification%20Report.png)
 
+* Summary Results
+The accuracy score of a model depicts what percentage of predictions that are correct. With an accuracy score of 64.7%, random sampling improved the model’s predictive capability above random guessing, but it is still fairly low. 
+
+Precision measures how likely a positive classification is to be true. It is defined as the number of True Positives divided by the sum of True Positives and False Positives, TP/(TP + FP). The random oversampling model was very precise when it comes to accurately predicting low-risk loans with a precision score of approximately 100%, 10,291/(10,291+31), however, it had very poor precision for predicting high-risk loans since it was approximately 1%, 70/(6,813 + 70). 
+
+Sensitivity, or recall, measures the model’s ability to accurately predictive a positive outcome. For example, the ability of this model to correctly classify all low-risk loans as low-risk. It is defined as the number of True Positives divided by the sum of True Positives and False Negatives, TP/(TP + FN). For high-risk transactions, the random oversampling model was moderately sensitive at 69%, 70/(70+31). It was also moderately sensitive for low-risk transactions at 60%, 10,291/(10,291+6,813).
+
+Finally, the F1 score, or harmonic mean, which combines both sensitivity and precision into a single metric, was 2% for high-risk loans and 75% for low-risk, also indicating that the model is good at classifying low-risk loans, but not high-risk. This makes sense since the loan dataset is imbalanced with many more low-risk than high-risk; however, we want the model to do a better job of predicting high-risk loans. Precision is the more important metric in this analysis since we want to be confident that when the model classifies a loan as high-risk, that it is actually high-risk. 
+
 ### SMOTE Oversampling
   * Balanced Accuracy Score
 
