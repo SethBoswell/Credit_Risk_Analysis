@@ -22,6 +22,7 @@ In the Credit_risk_ensemble file, I do the same preprocessing work on the data, 
 ![Random Oversampling Classification Report](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/Random%20Oversampling%20Classification%20Report.png)
 
 * Summary Results
+
 The accuracy score of a model depicts what percentage of predictions that are correct. With an accuracy score of 64.7%, random sampling improved the model’s predictive capability above random guessing, but it is still fairly low. 
 
 Precision measures how likely a positive classification is to be true. It is defined as the number of True Positives divided by the sum of True Positives and False Positives, TP/(TP + FP). The random oversampling model was very precise when it comes to accurately predicting low-risk loans with a precision score of approximately 100%, 10,291/(10,291+31), however, it had very poor precision for predicting high-risk loans since it was approximately 1%, 70/(6,813 + 70). 
