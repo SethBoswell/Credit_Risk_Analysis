@@ -78,6 +78,10 @@ The Cluster Centroids Undersampling algorithm, which works by generating cluster
 
 ![SMOTEENN Classification Report](https://github.com/SethBoswell/Credit_Risk_Analysis/blob/main/Images/SMOTEEN%20Classification%20Report.png)
 
+* Summary Results
+
+The SMOTEEN sampling algorithm, which combines both an oversampling and undersampling strategy, did not improve the precision of the logistic regression at predicting high-risk loans, but it did increase the sensitivity to 78% and the F1 score is still 2%. Although none of the sampling techniques lead to significantly improved results over the naïve technique, this one performed the best.
+
 ### Balanced Random Forest Classifier   
 * Balanced Accuracy Score
 
